@@ -1,17 +1,22 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <>
+  <h1>
+     First <strong>React</strong>  Chalenge
+  </h1>
+  <p>
+    This is paragraph
+  </p>
+  <ol>
+    <li>Netflix 1</li>
+    <li>Netflix 2</li>
+    <li>Netflix 3</li>
+    <li>Netflix 4</li>
+    <li>Netflix 5</li>
+    
+  </ol>
+  </>,
   document.getElementById('root')
-);
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+)
